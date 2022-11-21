@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # $Id: iprscan5_urllib2.py 2809 2022-08-02 16:10:25Z uludag $
-# Adapted by Paula Ramos-Silva on 2022-08-02
+# Adapted by Paula Ramos-Silva on 2022-08-02 from
+# https://www.ebi.ac.uk/seqdb/confluence/display/JDSAT/InterProScan+5+Help+and+Documentation#InterProScan5HelpandDocumentation-RESTAPI
 # ======================================================================
 #
 # InterProScan 5 (REST) Python client using urllib2 and 
@@ -28,10 +29,10 @@ debugLevel = 0
 numOpts = len(sys.argv)
 
 # Usage message
-usage = "Usage: %prog [options...] --email [email] --sequence [sequence_file]"
+usage = "Usage: %prog [options...] --email [email] --sequence [multi_protein_fasta_file]"
 description = """Identify protein family, domain and signal signatures in a 
-protein sequence using InterProScan. For more information on InterPro and InterProScan refer to http://bioinfo.easyhpc.org:59090/interpro/"""
-epilog = """For further information about the InterProScan 5 (REST) web service, see http://bioinfo.easyhpc.org:59090/Tools/webservices/services/pfa/iprscan5_est."""
+protein sequence using InterProScan."""
+epilog = """For further information about the InterProScan 5 (REST) web service, https://www.ebi.ac.uk/interpro/"""
 version = "$Id: iprscan5_urllib2.py 2809 2022-11-21 16:34:25Z uludag $"
 # Process command-line options
 parser = OptionParser(usage=usage, description=description, epilog=epilog, version=version)
