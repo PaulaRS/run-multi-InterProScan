@@ -3,7 +3,6 @@
 # Adapted by Paula Ramos-Silva on 2022-08-02
 # ======================================================================
 #
-# ======================================================================
 # InterProScan 5 (REST) Python client using urllib2 and 
 # xmltramp (http://www.aaronsw.com/2002/xmltramp/).
 #
