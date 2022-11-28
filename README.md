@@ -7,5 +7,5 @@ Input is one fasta file with multiple protein sequences. Tested with Python 2.7 
 
 ```bash
 python iprscan5_urllib2.py 
-python iprscan5_urllib2.py [options...] --email [email] --sequence [multi_fasta_sequence_file]
+python iprscan5_urllib2.py [options...] --email <email> --sequence <multi_fasta_sequence_file>
 ```

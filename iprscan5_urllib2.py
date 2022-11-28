@@ -2,6 +2,7 @@
 # $Id: iprscan5_urllib2.py 2809 2022-08-02 16:10:25Z uludag $
 # Adapted by Paula Ramos-Silva on 2022-08-02 from
 # https://www.ebi.ac.uk/seqdb/confluence/display/JDSAT/InterProScan+5+Help+and+Documentation#InterProScan5HelpandDocumentation-RESTAPI
+#
 # ======================================================================
 #
 # InterProScan 5 (REST) Python client using urllib2 and 
@@ -11,6 +12,7 @@
 #  Python 2.7 (macOS Monterey 12.3.1)
 #
 # ======================================================================
+#
 # Base URL for service
 baseUrl = 'https://www.ebi.ac.uk/Tools/services/rest/iprscan5'
 
@@ -29,7 +31,7 @@ debugLevel = 0
 numOpts = len(sys.argv)
 
 # Usage message
-usage = "Usage: %prog [options...] --email [email] --sequence [multi_protein_fasta_file]"
+usage = "Usage: %prog [options...] --email <email> --sequence <multi_protein_fasta_file>"
 description = """Identify protein family, domain and signal signatures in a 
 protein sequence using InterProScan."""
 epilog = """For further information about the InterProScan 5 (REST) web service, https://www.ebi.ac.uk/interpro/"""
